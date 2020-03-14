@@ -251,6 +251,22 @@ public class FrModificarCliente extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldTelActionPerformed
 
+    private boolean tryParseInt(String telefono) {
+        try {
+            Integer.parseInt(telefono);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
+
+    private boolean revisarTelefono(String telefono) {
+        if (telefono.length() > 8 || telefono.length() < 8) {
+            return false;
+        }
+        return true;
+    }
+    
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         if (jButton1.getText().equals("Salir")) {
             this.dispose();
@@ -258,9 +274,20 @@ public class FrModificarCliente extends javax.swing.JFrame {
             fr.setVisible(true);
         } else if (jButton1.getText().equals("Modificar")) {
             Cliente c = ProgramaPrincipal.datos.obtenerCliente(numero);
-            if (jTextFieldTel.getText().equals("")) {
-                JOptionPane.showMessageDialog(this, "No puede dejar el telefono en blanco!");
-            } else {
+            String telefono = jTextFieldTel.getText();
+            if (telefono.equals("")) {
+                JOptionPane.showMessageDialog(this, "El telefono no puede estar en blanco");
+                return;
+            } 
+            if (!tryParseInt(telefono)) {
+                JOptionPane.showMessageDialog(this, "Solo debe ingresar numeros en el telefono");
+                return;
+            }
+
+            if (!revisarTelefono(telefono)) {
+                JOptionPane.showMessageDialog(this, "El telefono debe tener 8 digitos");
+            }
+            else {
                 Cliente check = ProgramaPrincipal.datos.obtenerCliente(jTextFieldTel.getText());
 
                 if (numero.equals(desformatear(jTextFieldTel.getText()))) {

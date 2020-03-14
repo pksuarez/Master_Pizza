@@ -63,6 +63,7 @@ public class FrAgregarClientes extends javax.swing.JFrame {
         setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(149, 165, 166));
+        jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(22, 107, 70), 10, true));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel1.setText("Nombre");
@@ -91,6 +92,7 @@ public class FrAgregarClientes extends javax.swing.JFrame {
         });
 
         jTextFieldTel.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jTextFieldTel.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         jTextFieldTel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldTelActionPerformed(evt);
@@ -208,6 +210,21 @@ public class FrAgregarClientes extends javax.swing.JFrame {
         return desformateado;
     }
 
+    private boolean tryParseInt(String telefono){
+        try{
+            Integer.parseInt(telefono);
+            return true;
+        }
+        catch (NumberFormatException e){
+            return false;
+        }
+    }
+    
+    private boolean revisarTelefono(String telefono){
+        if (telefono.length()>8 || telefono.length()<8 )
+            return false;
+        return true;
+    }
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
         String direccion = jTextAreaDir.getText();
@@ -215,9 +232,21 @@ public class FrAgregarClientes extends javax.swing.JFrame {
         String apellido = jTextFieldApellido.getText();
         String telefono = desformatear(jTextFieldTel.getText());
 
+        
         if (telefono.equals("")) {
             JOptionPane.showMessageDialog(this, "Debe ingresar un telefono!");
-        } else {
+            return;
+        } 
+        
+        if (!tryParseInt(telefono)){
+            JOptionPane.showMessageDialog(this, "Solo debe ingresar numeros en el telefono");
+            return;
+        }
+        
+        if(!revisarTelefono(telefono)){
+            JOptionPane.showMessageDialog(this, "El telefono debe tener 8 digitos");
+        }
+        else {
             Cliente c = new Cliente(nombre, apellido, direccion, telefono);
             if (ProgramaPrincipal.datos.agregarCliente(c)) {
                 ProgramaPrincipal.datos.guardarClientes(ProgramaPrincipal.pathC);
@@ -234,7 +263,8 @@ public class FrAgregarClientes extends javax.swing.JFrame {
                     this.dispose();
 
                 }
-            } else {
+            } 
+            else {
                 JOptionPane.showMessageDialog(this, "Ya existe un cliente con ese numero!");
             }
 
