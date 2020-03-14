@@ -1,0 +1,27 @@
+             PIZZA PRONTO
+
+ced: 3-101-60-58-52
+ORDEN P.LLEVAR
+
+Numero De Orden: 3
+Fecha: 30/09/2018 02:12 PM
+Cajero: Pablo
+Cliente: nuevo
+Tipo Pago: EFECTIVO
+---------------------------------------
+               PRODUCTOS               
+
+1      P. Personal Brasileña      ¢2,200
+
+
+TOTAL: ¢2,200
+***I.V.I***
+---------------------------------------
+        Gracias por preferirnos!
+
+
+
+
+
+
+

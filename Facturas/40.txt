@@ -1,0 +1,38 @@
+             MASTER PIZZA
+
+ORDEN EXPRESS
+
+Numero De Orden: 40
+Fecha: 05/06/2018 09:58 PM
+Cajero: Pablo
+Cliente: Tamara 
+Tipo Pago: EFECTIVO
+---------------------------------------
+               PRODUCTOS               
+
+1      P. Med Hawaiana          ¢0
+1      P. Grd Peperoni          ¢0
+1      P. Personal Suprema      ¢0
+
+
+DIRECCION:
+Bosques de Lindora,
+hacienda el vinedo
+casa #4
+
+Télefono:      87208696
+
+
+Subtotal:      ¢0
+Express:       ¢1,200
+TOTAL:         ¢1,200
+***I.V.I***
+---------------------------------------
+        Gracias por preferirnos!
+
+
+
+
+
+
+

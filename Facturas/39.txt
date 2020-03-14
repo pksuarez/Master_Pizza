@@ -1,0 +1,30 @@
+             MASTER PIZZA
+
+ORDEN P.LLEVAR
+
+Numero De Orden: 39
+Fecha: 03/06/2018 04:33 PM
+Cajero: Pablo
+Cliente: Tamara 
+Tipo Pago: TARJETA
+---------------------------------------
+               PRODUCTOS               
+
+1      Pizza test            ¢5,300
+1      Coca Cola 2L          ¢1,500
+1      Calzone Especial      ¢1,300
+1      Pan Pizza             ¢1,570
+1      Pizza G Jamon         ¢4,500
+
+
+TOTAL: ¢14,170
+***I.V.I***
+---------------------------------------
+        Gracias por preferirnos!
+
+
+
+
+
+
+

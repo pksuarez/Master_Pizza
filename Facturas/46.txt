@@ -1,0 +1,26 @@
+             MASTER PIZZA
+
+ORDEN P.LLEVAR
+
+Numero De Orden: 46
+Fecha: 10/06/2018 06:23 PM
+Cajero: Pablo
+Cliente: 
+Tipo Pago: EFECTIVO
+---------------------------------------
+               PRODUCTOS               
+
+1      Combo 1      ¢9,000
+
+
+TOTAL: ¢9,000
+***I.V.I***
+---------------------------------------
+        Gracias por preferirnos!
+
+
+
+
+
+
+

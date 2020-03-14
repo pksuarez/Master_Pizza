@@ -1,0 +1,33 @@
+             
+PIZZA PRONTO
+
+ced: 3-101-60-58-52
+ORDEN P.LLEVAR
+
+Numero De Orden: 15
+Fecha: 30/09/2018 04:58 PM
+Cajero: Pablo
+Cliente: Pablo
+Tipo Pago: EFECTIVO
+---------------------------------------
+               PRODUCTOS               
+
+1      Empanada               ¢700
+1      Ingrediente Extra      ¢900
+1      Pan de Ajo             ¢600
+
+
+TOTAL: ¢2,200
+***I.V.I***
+---------------------------------------
+        Gracias por preferirnos!
+
+
+
+
+
+
+
+
+
+

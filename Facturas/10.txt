@@ -1,0 +1,31 @@
+             PIZZA PRONTO
+
+ced: 3-101-60-58-52
+ORDEN P.LLEVAR
+
+Numero De Orden: 10
+Fecha: 30/09/2018 04:26 PM
+Cajero: Pablo
+Cliente: nuevo
+Tipo Pago: EFECTIVO
+---------------------------------------
+               PRODUCTOS               
+
+1      P. Personal Hawaiana      ¢2,200
+1      P. Personal Italiana      ¢2,200
+1      P. Personal Combo         ¢2,200
+1      Arepa Rellena             ¢1,800
+1      Empanada                  ¢700
+
+
+TOTAL: ¢9,100
+***I.V.I***
+---------------------------------------
+        Gracias por preferirnos!
+
+
+
+
+
+
+

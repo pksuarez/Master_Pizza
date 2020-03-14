@@ -1,0 +1,26 @@
+             MASTER PIZZA
+
+ORDEN P.LLEVAR
+
+Numero De Orden: 42
+Fecha: 10/06/2018 04:51 PM
+Cajero: Pablo
+Cliente: 
+Tipo Pago: EFECTIVO
+---------------------------------------
+               PRODUCTOS               
+
+1      P. Fiesta Italiana      ¢7,500
+
+
+TOTAL: ¢7,500
+***I.V.I***
+---------------------------------------
+        Gracias por preferirnos!
+
+
+
+
+
+
+

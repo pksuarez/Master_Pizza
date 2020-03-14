@@ -1,0 +1,39 @@
+
+
+               MASTER PIZZA
+
+ORDEN EXPRESS
+
+Numero De Orden: 34
+Fecha: 03/06/2018 01:55 PM
+Cajero: Pablo
+Cliente: Tamara 
+Tipo Pago: EFECTIVO
+---------------------------------------
+               PRODUCTOS               
+
+1      Pizza test            ¢5,300
+3      Coca Cola 2L          ¢4,500
+2      Calzone Especial      ¢2,600
+1      Pan Pizza             ¢1,570
+1      Pizza G Jamon         ¢4,500
+
+
+DIRECCION:
+Bosques de Lindora,
+hacienda el vinedo
+casa #4
+Editado por motivos de prueba                     1
+
+Télefono:      87208696
+
+
+Subtotal:      ¢18,470
+Express:       ¢1,000
+TOTAL:         ¢19,470
+***I.V.I***
+---------------------------------------
+        Gracias por preferirnos!
+
+
+

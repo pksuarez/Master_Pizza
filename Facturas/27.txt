@@ -1,0 +1,38 @@
+
+          MASTER PIZZA
+
+ORDEN EXPRESS
+
+Numero De Orden: 27
+Fecha: 01/06/2018 09:13 PM
+Cajero: Pablo
+Cliente: Tamara 
+Tipo Pago: EFECTIVO
+---------------------------------------
+
+2            test                ¢10,600
+1            coca cola           ¢1,500
+1            rico                ¢1,570
+
+
+DIRECCIÓN:
+Bosques de Lindora,
+hacienda el vinedo
+casa #4
+
+Télefono:      87208696
+
+
+Subtotal:      ¢13,670
+Express:       ¢0
+TOTAL:         ¢13,670
+***I.V.I***
+---------------------------------------
+
+     Gracias por preferirnos!
+
+
+
+
+
+
